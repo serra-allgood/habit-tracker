@@ -3,7 +3,6 @@
 !#
 
 (use-modules  (ice-9 getopt-long)
-              (ice-9 textual-ports)
               (srfi srfi-19))
 
 (define habit-tracker-dir (string-append (passwd:dir (getpw (getlogin))) file-name-separator-string ".habit-tracker"))
